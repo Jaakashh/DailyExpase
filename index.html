@@ -1,15 +1,59 @@
-function updateUI() {
-    const currentDate = new Date();
-    const currentMonth = currentDate.getMonth(); // 0-11 for months
-    const currentYear = currentDate.getFullYear();
-
-    // Check if the loan is for April 2026
-    if (currentYear === 2026 && currentMonth === 3) { // April is month 3
-        // Logic to display EMI card alert
-        let emiCardAlert = document.getElementById('emiCardAlert');
-        emiCardAlert.style.display = 'block';
-        emiCardAlert.textContent = 'EMI for your loan is due this month!';
-    }
-}
-// Call updateUI function to check and display alert
-updateUI();
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Pro & Reporting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Finance Pro</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#budget">Budget</a></li>
+            <li><a href="#reports">Reports</a></li>
+            <li><a href="#accounts">Accounts</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#loans">EMI/Loans Management</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <p>Overview of your finances.</p>
+        </section>
+        <section id="budget">
+            <h2>Budget</h2>
+            <p>Manage your budget here.</p>
+        </section>
+        <section id="reports">
+            <h2>Reports</h2>
+            <p>Generate financial reports.</p>
+        </section>
+        <section id="accounts">
+            <h2>Accounts</h2>
+            <p>Track your accounts.</p>
+        </section>
+        <section id="categories">
+            <h2>Categories</h2>
+            <p>Organize your transactions.</p>
+        </section>
+        <section id="loans">
+            <h2>EMI/Loans Management</h2>
+            <p>Manage your loans.</p>
+        </section>
+        <section id="settings">
+            <h2>Settings</h2>
+            <p>Adjust your preferences.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Finance Pro. All Rights Reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
