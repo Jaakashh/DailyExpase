@@ -1,0 +1,46 @@
+.no-scrollbar {
+  overflow: hidden;
+}
+
+.bottom-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pb-safe {
+  padding-bottom: 16px;
+}
+
+.pt-safe {
+  padding-top: 16px;
+}
+
+.shadow-up {
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.fab-btn {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
