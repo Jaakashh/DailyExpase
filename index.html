@@ -172,15 +172,23 @@
 
             <div id="view-dashboard" class="page block ">
 
-                <div class="flex gap-2" style="justify-content: end;margin:10px;">
-                    <button onclick="location.reload()" class="bg-white p-2 rounded-xl shadow-sm text-slate-500">
-                        <i data-lucide="refresh-cw" class="w-6 h-6"></i>
-                    </button>
-                    <button onclick="switchTab('settings')" class="bg-white p-2 rounded-xl shadow-sm text-slate-500">
-                        <i data-lucide="settings" class="w-6 h-6"></i>
-                    </button>
-                </div>
+             <div class="flex items-center justify-between" style="margin: 15px 10px;">
+    <div class="flex items-center gap-2">
+        <div class="bg-[#5c4df3] p-1.5 rounded-lg shadow-sm">
+           
+        </div>
+        <span class="font-bold text-slate-800 text-lg tracking-tight">SpendX</span>
+    </div>
 
+    <div class="flex gap-2">
+        <button onclick="location.reload()" class="bg-white p-2.5 rounded-xl shadow-sm text-slate-500 hover:text-[#5c4df3] transition-colors">
+            <i data-lucide="refresh-cw" class="w-5 h-5"></i>
+        </button>
+        <button onclick="switchTab('settings')" class="bg-white p-2.5 rounded-xl shadow-sm text-slate-500 hover:text-[#5c4df3] transition-colors">
+            <i data-lucide="settings" class="w-5 h-5"></i>
+        </button>
+    </div>
+</div>
                 <!-- Balance Card -->
                 <div class="bg-[#5c4df3] text-white rounded-2xl p-3 shadow-md">
     <div class="flex justify-between items-end mb-1">
